@@ -17,6 +17,7 @@ const Header = () => {
                             return <li key={inx}><span><NavLink to={item.path}>{item.name}</NavLink></span></li>
                         })
                     }
+                    <button className='py-3 px-8 bg-[#1D2130] rounded text-[#fff] cursor-pointer active:scale-95 duration-300'>Donate</button>
                 </ul>
             </nav>
         </div>
