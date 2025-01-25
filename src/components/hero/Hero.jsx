@@ -1,7 +1,7 @@
 import React from 'react';
 import heroBg from '../../assets/herobg.svg';
 import play from '../../assets/play.svg';
-import lineimage from '../../assets/line.svg';
+import lineimage from '../../assets/Line.svg';
 
 
 
