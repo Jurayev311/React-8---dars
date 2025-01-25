@@ -1,6 +1,6 @@
 import React from 'react'
 import blackLine from '../../assets/black-line.svg'
-import videosv from '../../assets/video.svg'
+import bgvideoimage from '../../assets/video.svg'
 
 const AboutHero = () => {
   return (
@@ -19,7 +19,7 @@ const AboutHero = () => {
                 </div>
 
                 <div className='w-full'>
-                  <img src={videosv} alt="video" />
+                  <img src={bgvideoimage} alt="video" />
                 </div>
             </div>
         </div>
