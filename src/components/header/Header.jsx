@@ -2,10 +2,15 @@ import React from 'react'
 import {LINKS} from '../../static/index'
 import { NavLink } from 'react-router-dom'
 import logo from '../../assets/logo.svg'
+import { useLocation } from 'react-router-dom'
 
 const Header = () => {
+    const {pathname} = useLocation()
+
+
+
   return (
-    <header id='header' >
+<header id='header' className={pathname === '/media' ? 'bg-[#EFF7F2]' : pathname === '/contact' ? 'bg-[#EBF0F9]' : ''}>
         <div className='container mx-auto max-w-[1280px]'>
             <nav className='flex items-center justify-between h-[67px]'>
                 <div>
