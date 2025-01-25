@@ -1,10 +1,10 @@
 import React from 'react'
-import AboutUs from '../../components/about-us/about-us'
+import Aboutus from '../../components/about-us/Aboutus'
 
 const About = () => {
   return (
     <>
-      <AboutUs />
+      <Aboutus />
     </>
   )
 }

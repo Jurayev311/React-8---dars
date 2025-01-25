@@ -2,7 +2,7 @@ import React from 'react'
 import lineblack from '../../assets/black-line.svg'
 import team from '../../assets/image.svg'
 
-const AboutUs = () => {
+const Aboutus = () => {
   return (
     <section className='mt-[96px]'>
       <div className='container mx-auto max-w-[1280px]'>
@@ -43,4 +43,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs
+export default Aboutus
