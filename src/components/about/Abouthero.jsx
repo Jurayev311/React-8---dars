@@ -1,6 +1,6 @@
 import React from 'react'
 import blackLine from '../../assets/black-line.svg'
-import bgvideoimage from '../../assets/video.svg'
+import bgvideoimage from '../../assets/Video.svg'
 
 const AboutHero = () => {
   return (
