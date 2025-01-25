@@ -1,7 +1,7 @@
 import React from 'react';
 import heroBg from '../../assets/herobg.svg';
 import play from '../../assets/play.svg';
-import line from '../../assets/line.svg';
+import lineimage from '../../assets/line.svg';
 
 
 
@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
       <div className="pb-[20px] absolute bottom-0 left-10 right-0 flex items-center justify-between text-white px-6 py-4 text-[16px] font-medium">
         <p>23,800 trees planted</p>
-        <img className='w-[1000px]' src={line} alt="line image" />
+        <img className='w-[1000px]' src={lineimage} alt="line image" />
         <p>5840 donations collected</p>
       </div>
     </section>
