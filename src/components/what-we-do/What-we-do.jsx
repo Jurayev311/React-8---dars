@@ -1,7 +1,7 @@
 import React from 'react'
 import lineblack from '../../assets/black-line.svg'
 import wedo from '../../assets/wedo.svg'
-import city from '../../assets/icon1.svg'
+import city from '../../assets/icon.svg'
 
 const WhatWeDo = () => {
     return (
