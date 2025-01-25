@@ -2,7 +2,7 @@ import React from 'react'
 import blackLine from '../../assets/black-line.svg'
 import videosv from '../../assets/video.svg'
 
-const About = () => {
+const AboutHero = () => {
   return (
     <section className='mt-[96px] mb-[96px]'>
         <div className='container mx-auto max-w-[1280px]'>
@@ -27,4 +27,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutHero
