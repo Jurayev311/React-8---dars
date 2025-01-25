@@ -4,7 +4,7 @@ import videosv from '../../assets/video.svg'
 
 const About = () => {
   return (
-    <section className='mt-[96px]'>
+    <section className='mt-[96px] mb-[96px]'>
         <div className='container mx-auto max-w-[1280px]'>
             <div className='flex items-center gap-[96px]'>
                 <div className='text-[#1D2130] text-[16px] font-bold w-full'>

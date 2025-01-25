@@ -1,8 +1,11 @@
 import React from 'react'
+import WhatWeDo from '../../components/what-we-do/What-we-do'
 
 const whatWeDo = () => {
   return (
-    <div>what-we-do</div>
+    <>
+      <WhatWeDo />
+    </>
   )
 }
 
