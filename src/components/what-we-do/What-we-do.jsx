@@ -5,7 +5,7 @@ import city from '../../assets/Icon.svg'
 
 const WhatWeDo = () => {
     return (
-        <section className='mt-[96px] mb-[96px]'>
+        <section className='mt-[96px]  mb-[96px]'>
             <div className='container mx-auto max-w-[1280px]'>
                     <div className='flex gap-[24px] items-center text-[#1D2130] text-[16px] font-bold'>
                         <img className='mb-8' src={lineblack} alt="" />

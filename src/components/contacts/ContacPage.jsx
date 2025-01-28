@@ -73,7 +73,7 @@ const ContacPage = () => {
       <img className='w-full' src={map} alt="" />
 
 
-      <section className="bg-black text-white py-10">
+      <footer className="bg-black text-white py-10">
         <div className="container mx-auto max-w-[1280px] px-4 grid md:grid-cols-4 gap-8">
           <div>
             <img src={logo} alt="Logo" />
@@ -128,9 +128,7 @@ const ContacPage = () => {
             </form>
           </div>
         </div>
-      </section>
-
-
+      </footer>
     </>
   );
 };
