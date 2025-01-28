@@ -1,7 +1,7 @@
 import React from 'react'
 import blackLine from '../../assets/black-line.svg'
 import dogs from '../../assets/dogs.svg'
-import icon from '../../assets/icon.svg'
+import icon from '../../assets/Icon.svg'
 
 const Info = () => {
   return (
