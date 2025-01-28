@@ -4,9 +4,9 @@ import play from '../../assets/play.svg';
 import lineimage from '../../assets/Line.svg';
 
 
-
 const Hero = () => {
   return (
+    <>
     <section className="relative h-screen">
       <img
         id="hero-image"
@@ -33,6 +33,7 @@ const Hero = () => {
         <p>5840 donations collected</p>
       </div>
     </section>
+    </>
   );
 };
 
